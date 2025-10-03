@@ -1,0 +1,536 @@
+body {
+  background-color: #2e1d13;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e1d13;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left .logo {
+  width: 80px;
+  height: 110px;
+  margin-right: 5px;
+}
+
+.BrandName {
+  color: #ffe6a7;
+  font-size: 22px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.BookButton {
+  background-color: #ffe6a7;
+  color: #2e1d13;
+  padding: 10px 14px;
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding-left: 170px;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  color: #ffe6a7;
+  font-size: 100px;
+  margin: 0 0 20px 0;
+}
+
+.hero .MenuButt,
+.hero .EventsButt {
+  font-size: 16px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.hero .MenuButt {
+  background-color: #ffe6a7;
+  color: #2e1d13;
+  border: none;
+}
+
+.hero .EventsButt {
+  background-color: #2e1d13;
+  color: #ffe6a7;
+  border: 3px solid #ffe6a7;
+}
+
+.hero .MenuButt:hover {
+  background-color: #ffcf66;
+  color: #2e1d13;
+}
+
+.hero .EventsButt:hover {
+  background-color: #ffe6a7;
+  color: #2e1d13;
+  border-color: #2e1d13;
+}
+
+.bean {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width: 650px;
+  z-index: 1;
+}
+
+.about {
+  background-color: #faead5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding: auto;
+}
+
+.about-content {
+  max-width: 800px;
+  color: #2e1d13;
+}
+
+.about-content h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-content p {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.about .CafePhoto {
+  width: 600px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.promo {
+  background-color: #faead5;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.promo-box {
+  border: 2px dashed #2e1d13;
+  border-width: 5px;
+  padding: 20px;
+  max-width: 500px;
+  text-align: left;
+}
+
+.promo-box h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #2e1d13;
+}
+
+.promo-box p {
+  font-size: 30px;
+  color: #2e1d13;
+  margin-bottom: 15px;
+}
+
+.promo-image {
+  width: 450px;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+}
+
+.last-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding: auto;
+}
+.mappage {
+  flex: 1;
+  text-align: left;
+}
+.mappage h1 {
+  font-size: 50px;
+  color: #ffe6a7;
+  text-align: center;
+}
+.mappage p {
+  font-size: 35px;
+  color: #ffe6a7;
+  text-align: center;
+}
+
+.map {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.questions {
+  flex: 1;
+  text-align: right;
+}
+.questions h1 {
+  font-size: 50px;
+  color: #ffe6a7;
+  text-align: center;
+}
+.questions textarea {
+  width: 80%;
+  height: 300px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+  display: block;
+  margin: 0 auto;
+}
+.questions button {
+  background-color: #ffe6a7;
+  color: #2e1d13;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+footer {
+  background-color: #2e1d13;
+  padding: 20px;
+  color: #ffe6a7;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-center {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-right {
+  flex: 1;
+  text-align: right;
+}
+
+.Contact {
+  background-color: transparent;
+  color: #ffe6a7;
+  font-size: 18px;
+  margin: 0;
+}
+
+.footlogo {
+  width: 100px;
+  height: auto;
+}
+
+.nav-foot {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-foot li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-foot li a {
+  text-decoration: none;
+  color: #ffe6a7;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    padding-left: 50px;
+  }
+
+  .bean {
+    width: 500px;
+    left: 65%;
+  }
+
+  .about-content h1 {
+    font-size: 50px;
+  }
+
+  .about-content p {
+    font-size: 32px;
+  }
+
+  .about .CafePhoto {
+    width: 450px;
+  }
+
+  .promo-image {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin: 5px 15px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  .BrandName {
+    font-size: 20px;
+  }
+
+  .header-left .logo {
+    width: 60px;
+    height: 80px;
+  }
+
+  .hero {
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+
+  .bean {
+    position: relative;
+    width: 300px;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin-top: 20px;
+  }
+
+  .hero .MenuButt,
+  .hero .EventsButt {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 40px 20px;
+    align-items: center;
+  }
+
+  .about-content {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .about-content h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .about-content p {
+    font-size: 24px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .about .CafePhoto {
+    width: 100%;
+    max-width: 400px;
+    margin-left: 0;
+  }
+
+  .promo {
+    padding: 20px 10px;
+  }
+
+  .promo-box {
+    max-width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .promo-box h2 {
+    font-size: 32px;
+  }
+
+  .promo-box p {
+    font-size: 20px;
+  }
+
+  .promo-image {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .last-page {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .mappage,
+  .questions {
+    flex: none;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .mappage h1,
+  .questions h1 {
+    font-size: 32px;
+  }
+
+  .mappage p {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  .map {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .questions textarea {
+    width: 90%;
+    height: 200px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex: none;
+    text-align: center;
+  }
+
+  .nav-foot li {
+    margin: 0 10px;
+  }
+
+  .nav-foot li a {
+    font-size: 14px;
+  }
+
+  .Contact {
+    font-size: 16px;
+  }
+
+  .footlogo {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 45px;
+  }
+
+  .bean {
+    width: 250px;
+  }
+
+  .about-content h1 {
+    font-size: 32px;
+  }
+
+  .about-content p {
+    font-size: 18px;
+  }
+
+  .promo-box h2 {
+    font-size: 26px;
+  }
+
+  .promo-box p {
+    font-size: 16px;
+  }
+
+  .mappage h1,
+  .questions h1 {
+    font-size: 26px;
+  }
+
+  .mappage p {
+    font-size: 18px;
+  }
+
+  .questions textarea {
+    height: 150px;
+    font-size: 14px;
+  }
+}
